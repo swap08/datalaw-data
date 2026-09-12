@@ -57,8 +57,14 @@ Suggested form:
 Individual decisions have stable anchors built from the case number — decision 제2026-215-336호 is
 at `https://datalaw.kr/sanctions/#d-2026-215-336`, and the same scheme applies to the other tables.
 
-Reuse is free provided the source is named. The underlying decisions are not subject to copyright
-under art. 7 of the Korean Copyright Act; what is offered here is the compilation.
+## Licence
+
+The compilation is licensed **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** — share
+and adapt it for any purpose, including commercially, as long as you give credit. See `LICENSE`.
+
+The underlying decisions, mediation cases and judgments are public documents of Korean state
+bodies and are not subject to copyright under art. 7 of the Korean Copyright Act. The licence
+covers the compilation, not the sources, which are free of copyright to begin with.
 
 ## Corrections
 
@@ -83,3 +89,7 @@ privacy, data and technology regulation. Background: [datalaw.kr/en/about/](http
 
 논문·보고서처럼 나중에 검증되어야 하는 글에서는 날짜가 박힌 아카이브 판
 (`https://datalaw.kr/archive/<이름>-YYYY-MM-DD.csv`)을 인용하십시오. 그 주소는 바뀌지 않습니다.
+
+정리물의 이용 조건은 **CC BY 4.0**입니다 — 출처를 밝히시면 상업적 이용을 포함해 자유롭게 쓰고
+고치실 수 있습니다. 결정문·판결문 원문은 저작권법 제7조에 따라 애초에 저작권 보호 대상이 아니고,
+이 라이선스는 원문이 아니라 **정리물**에 붙습니다.

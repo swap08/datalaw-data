@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The compilation published in this repository — the selection, extraction, structuring and
+classification of the data in data/*.csv — is licensed under the Creative Commons Attribution 4.0
+International License. You may share and adapt it for any purpose, including commercially,
+provided you give appropriate credit.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+    Hyunsub Lee (SEUM Law), Korean data-protection enforcement datasets,
+    https://datalaw.kr/ , CC BY 4.0
+
+NOTE ON THE UNDERLYING DOCUMENTS
+
+The decisions, mediation cases, judgments and statutes that these tables are drawn from are
+public documents of Korean state bodies. Under article 7 of the Korean Copyright Act, the
+rulings and decisions of courts and administrative bodies are not subject to copyright
+protection. This licence therefore applies to the compilation, not to the source documents,
+which are free of copyright in the first place.
+
+NO WARRANTY
+
+The tables are extracted programmatically and are not guaranteed to be accurate or complete.
+They cover only documents that have been published; many respondents are anonymised by the
+Commission, so counts are a floor rather than a census. Verify against the original document —
+linked in the last column of each table — before relying on any individual case.
