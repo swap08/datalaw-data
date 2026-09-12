@@ -54,6 +54,15 @@ Suggested form:
 
 > Hyunsub Lee (SEUM Law), *PIPC Sanctions Tracker*, https://datalaw.kr/sanctions/ (collected YYYY-MM-DD)
 
+**For academic work, cite the DOI.** Each release of this repository is archived on Zenodo with a
+version DOI, and a concept DOI resolves to the latest version. A DOI is a fixed, resolvable
+identifier, which is what a footnote in a paper needs — a live URL is not.
+
+> Lee, Hyunsub. *Korean data-protection enforcement datasets.* Version 2026.09.12. Zenodo.
+> doi:10.5281/zenodo.XXXXXXX
+
+<!-- TODO: replace XXXXXXX once the first Zenodo release is archived, and add the DOI badge. -->
+
 Individual decisions have stable anchors built from the case number — decision 제2026-215-336호 is
 at `https://datalaw.kr/sanctions/#d-2026-215-336`, and the same scheme applies to the other tables.
 
