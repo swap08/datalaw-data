@@ -1,5 +1,8 @@
 # Korean data-protection enforcement, as CSV
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22722236.svg)](https://doi.org/10.5281/zenodo.22722236)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 Four tables covering how Korea's personal data laws are actually enforced. They are built by
 reading the underlying decisions and judgments — not the press releases — and are published
 here as plain CSV so they can be cited, checked and reused.
@@ -59,9 +62,12 @@ version DOI, and a concept DOI resolves to the latest version. A DOI is a fixed,
 identifier, which is what a footnote in a paper needs — a live URL is not.
 
 > Lee, Hyunsub. *Korean data-protection enforcement datasets.* Version 2026.09.12. Zenodo.
-> doi:10.5281/zenodo.XXXXXXX
+> https://doi.org/10.5281/zenodo.22722237
 
-<!-- TODO: replace XXXXXXX once the first Zenodo release is archived, and add the DOI badge. -->
+Two DOIs exist and they do different jobs. Cite the **version DOI** above when your work has to
+stay checkable — it resolves to this exact release and its contents never change. Use the
+**concept DOI**, [10.5281/zenodo.22722236](https://doi.org/10.5281/zenodo.22722236), when you want
+to point at whatever the latest version is.
 
 Individual decisions have stable anchors built from the case number — decision 제2026-215-336호 is
 at `https://datalaw.kr/sanctions/#d-2026-215-336`, and the same scheme applies to the other tables.
@@ -95,6 +101,9 @@ privacy, data and technology regulation. Background: [datalaw.kr/en/about/](http
 수록 범위와 한계는 위 영문 절과 같습니다. 요약하면 **게시판에 공개된 것만** 세고, 비실명 의결은
 셀 수 없으므로 모든 수치가 하한이며, 기계 추출이라 정확성을 보증하지 않습니다. 개별 사건을 근거로
 쓰실 때는 표 마지막 열의 원문 링크를 반드시 확인하십시오.
+
+학술 인용에는 **DOI**를 쓰십시오. 이 판은 `https://doi.org/10.5281/zenodo.22722237`이고,
+항상 최신판을 가리키는 주소는 `https://doi.org/10.5281/zenodo.22722236`입니다.
 
 논문·보고서처럼 나중에 검증되어야 하는 글에서는 날짜가 박힌 아카이브 판
 (`https://datalaw.kr/archive/<이름>-YYYY-MM-DD.csv`)을 인용하십시오. 그 주소는 바뀌지 않습니다.
