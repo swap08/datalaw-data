@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: >-
   Korean data-protection enforcement datasets: PIPC sanction
-  decisions, dispute mediation, civil damages judgments and
-  commencement dates
+  decisions, fine calculation grounds, KCC decisions, dispute
+  mediation, civil damages judgments and commencement dates
 message: >-
   If you use these tables, please cite them. Where your work has
   to stay checkable, cite a dated snapshot rather than the live
@@ -16,15 +16,19 @@ authors:
 repository-code: "https://github.com/swap08/datalaw-data"
 url: "https://datalaw.kr/sanctions/"
 abstract: >-
-  Four tables covering how Korea's personal data laws are
+  Six tables covering how Korea's personal data laws are
   enforced: sanction decisions published by the Personal
-  Information Protection Commission, disputes resolved by the
-  Personal Information Dispute Mediation Committee, civil
-  judgments on damages for data breaches, and statutes with
-  future commencement dates. Built by reading the underlying
-  decisions rather than the press releases. Only published
-  documents are counted, and many respondents are anonymised,
-  so counts are a floor rather than a census.
+  Information Protection Commission, administrative fine
+  calculation grounds extracted from the reasoning sections of
+  its decisions, personal-data decisions of the now-abolished
+  Korea Communications Commission recovered by OCR from
+  scanned PDFs, disputes resolved by the Personal Information
+  Dispute Mediation Committee, civil judgments on damages for
+  data breaches, and statutes with future commencement dates.
+  Built by reading the underlying decisions rather than the
+  press releases. Only published documents are counted, and
+  many respondents are anonymised, so counts are a floor
+  rather than a census.
 keywords:
   - data protection
   - privacy law

@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22722236.svg)](https://doi.org/10.5281/zenodo.22722236)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Four tables covering how Korea's personal data laws are actually enforced. They are built by
+Six tables covering how Korea's personal data laws are actually enforced. They are built by
 reading the underlying decisions and judgments — not the press releases — and are published
 here as plain CSV so they can be cited, checked and reused.
 
@@ -12,12 +12,14 @@ truth; this repository is a distribution copy.
 
 | File | What it covers | Rows | Source page |
 |---|---|---|---|
-| `data/pipc-sanctions.csv` | Sanction decisions published by the Personal Information Protection Commission (PIPC) | 889 | [datalaw.kr/sanctions/](https://datalaw.kr/sanctions/) |
+| `data/pipc-sanctions.csv` | Sanction decisions published by the Personal Information Protection Commission (PIPC) | 1010 | [datalaw.kr/sanctions/](https://datalaw.kr/sanctions/) |
+| `data/kmcc-sanctions.csv` | Decisions of the (now abolished) Korea Communications Commission in personal data cases, structured from scanned decision PDFs via OCR | 348 | [datalaw.kr/sanctions/kmcc/](https://datalaw.kr/sanctions/kmcc/) |
 | `data/mediation-cases.csv` | Disputes resolved by the Personal Information Dispute Mediation Committee | 771 | [datalaw.kr/mediation/](https://datalaw.kr/mediation/) |
 | `data/damages-judgments.csv` | Civil judgments awarding (or refusing) damages for data breaches | 34 | [datalaw.kr/damages/](https://datalaw.kr/damages/) |
-| `data/law-timeline.csv` | Korean statutes and subordinate rules with future commencement dates | 26 | [datalaw.kr/timeline/](https://datalaw.kr/timeline/) |
+| `data/pipc-fine-mitigation.csv` | Administrative fine calculation grounds extracted from the reasoning sections of PIPC decisions | 124 | [datalaw.kr/decisions/](https://datalaw.kr/decisions/) |
+| `data/law-timeline.csv` | Korean statutes and subordinate rules with future commencement dates | 25 | [datalaw.kr/timeline/](https://datalaw.kr/timeline/) |
 
-Row counts are as of 11 September 2026. Column headings are in Korean; the source pages carry
+Row counts are as of 18 September 2026. Column headings are in Korean; the source pages carry
 the same tables with the same columns.
 
 ## Scope, and what these numbers are not
@@ -26,9 +28,12 @@ the same tables with the same columns.
   published on its board. It is a floor, not a census.
 - **Many respondents are anonymised** by the Commission. This project does not try to identify
   them from other sources, so any count broken down by company is a lower bound.
-- **Machine-extracted.** Everything except a few hand-classified columns is extracted
-  programmatically from the original documents. Accuracy is not guaranteed. Before relying on any
-  individual case, open the original — the last column of each table links to it.
+- **Machine-extracted.** Everything except a few hand-classified columns and
+  `damages-judgments.csv` (compiled by hand) is extracted programmatically from the original
+  documents. `kmcc-sanctions.csv` comes from scanned PDFs with no text layer, so it is extracted
+  by OCR and carries the extra error modes that implies.
+  Accuracy is not guaranteed. Before relying on any individual case, open the original — the
+  last column of each table links to it.
 - Figures from different layers (decisions whose full text is published vs. decisions known only
   from a press release) **are not added together.**
 
@@ -95,7 +100,9 @@ privacy, data and technology regulation. Background: [datalaw.kr/en/about/](http
 
 ## 한국어
 
-개인정보 관련 제재·조정·판결·시행일 네 가지 표를 CSV로 배포합니다. 정본은
+개인정보 관련 제재(개인정보위·옛 방송통신위원회)·과징금 산정 근거·조정·판결·시행일 여섯 가지
+표를 CSV로 배포합니다. 방송통신위원회 의결 표는 폐지된 기관의 스캔본 의결서에 OCR을 걸어
+구조화한 것입니다. 정본은
 [datalaw.kr](https://datalaw.kr/)이고 이 저장소는 배포판입니다 — 여기서 CSV를 직접 고치지 마십시오.
 
 수록 범위와 한계는 위 영문 절과 같습니다. 요약하면 **게시판에 공개된 것만** 세고, 비실명 의결은
