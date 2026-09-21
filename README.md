@@ -10,6 +10,15 @@ here as plain CSV so they can be cited, checked and reused.
 The tables are maintained at **[datalaw.kr](https://datalaw.kr/)**, which is the source of
 truth; this repository is a distribution copy.
 
+For case-level interpretation, use the canonical pages rather than inferring a legal conclusion
+from one CSV row. The [sanctions tracker](https://datalaw.kr/sanctions/) groups representative
+decisions by the situation a company actually faces. The supporting comparison pages cover
+[arguments and PIPC responses](https://datalaw.kr/sanctions/defenses/),
+[decisions handled together](https://datalaw.kr/sanctions/batch/), and
+[breach-notice delays](https://datalaw.kr/sanctions/breach-notice/). Those pages explain the
+selection limits, exceptions and reasoning in the underlying decisions; this repository remains
+the machine-readable distribution copy.
+
 | File | What it covers | Rows | Source page |
 |---|---|---|---|
 | `data/pipc-sanctions.csv` | Sanction decisions published by the Personal Information Protection Commission (PIPC) | 1010 | [datalaw.kr/sanctions/](https://datalaw.kr/sanctions/) |
@@ -104,6 +113,12 @@ privacy, data and technology regulation. Background: [datalaw.kr/en/about/](http
 표를 CSV로 배포합니다. 방송통신위원회 의결 표는 폐지된 기관의 스캔본 의결서에 OCR을 걸어
 구조화한 것입니다. 정본은
 [datalaw.kr](https://datalaw.kr/)이고 이 저장소는 배포판입니다 — 여기서 CSV를 직접 고치지 마십시오.
+
+CSV 한 행만으로 법적 결론을 추론하지 마십시오. 회사가 실제로 겪는 상황별 대표 선례와 비교는
+[제재 추적기](https://datalaw.kr/sanctions/)에서, 회사의 주장과 위원회 판단은
+[항변 전수표](https://datalaw.kr/sanctions/defenses/)에서, 함께 처분된 의결은
+[일괄 처분 묶음](https://datalaw.kr/sanctions/batch/)에서, 유출 통지·신고 지연은
+[통지 지연 전수표](https://datalaw.kr/sanctions/breach-notice/)에서 확인할 수 있습니다.
 
 수록 범위와 한계는 위 영문 절과 같습니다. 요약하면 **게시판에 공개된 것만** 세고, 비실명 의결은
 셀 수 없으므로 모든 수치가 하한이며, 기계 추출이라 정확성을 보증하지 않습니다. 개별 사건을 근거로
